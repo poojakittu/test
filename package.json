@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Pooja Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.30.3",
+    "bcrypt": "^5.1.0",
+    "clipboardy": "^3.0.0",
+    "commander": "^10.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "js-generate-password": "^0.1.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
